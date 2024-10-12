@@ -2,26 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+
+ @-webkit-keyframes rotate-scale-up-diag-1{0%{-webkit-transform:scale(1) rotate3d(1,1,0,0deg);transform:scale(1) rotate3d(1,1,0,0deg)}50%{-webkit-transform:scale(2) rotate3d(1,1,0,-180deg);transform:scale(2) rotate3d(1,1,0,-180deg)}100%{-webkit-transform:scale(1) rotate3d(1,1,0,-360deg);transform:scale(1) rotate3d(1,1,0,-360deg)}}@keyframes rotate-scale-up-diag-1{0%{-webkit-transform:scale(1) rotate3d(1,1,0,0deg);transform:scale(1) rotate3d(1,1,0,0deg)}50%{-webkit-transform:scale(2) rotate3d(1,1,0,-180deg);transform:scale(2) rotate3d(1,1,0,-180deg)}100%{-webkit-transform:scale(1) rotate3d(1,1,0,-360deg);transform:scale(1) rotate3d(1,1,0,-360deg)}}
+
+
+
+/* 
+@keyframes golaGanda {
+  0% {
+    border: 3px solid white;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  20% {
+    border: 3px solid red;
   }
-}
+  40% {
+    border: 3px solid blue;
+    background-color: aqua;
+  }
+  60% {
+    border: 3px solid rgb(98, 98, 243);
+  }
+  80% {
+    border: 1px solid green;
+  }
+  100% {
+    border: 3px solid white;
+  }
+} */
